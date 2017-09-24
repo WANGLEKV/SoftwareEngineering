@@ -16,6 +16,8 @@ void  Sudo::Print()
 			for (int j = 0; j<9; j++)
 			{
 				if (map[i][j] == 0) printf("9 ");
+				else if (map[i][j] == 1) printf("6 ");
+				else if (map[i][j] == 6) printf("1 ");
 				else printf("%d ", map[i][j]);
 			}
 			puts("");
